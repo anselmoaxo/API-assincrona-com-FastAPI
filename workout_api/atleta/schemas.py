@@ -1,4 +1,4 @@
-from pydantic import  Field, PositiveFloat
+from pydantic import Field, PositiveFloat
 from typing import Annotated
 
 from workout_api.contrib.schemas import BaseSchema
