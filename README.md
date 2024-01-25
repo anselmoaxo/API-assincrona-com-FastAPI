@@ -21,7 +21,7 @@ cd API-assincrona-com-FastAPI
 ## Endpoints
 ### Atletas
 **Listar todos os atletas:**
-Endpoint: http://127.0.0.1:8000/atletas/
+***Endpoint: http://127.0.0.1:8000/atletas/***
 Método: GET
 
 **Detalhes de um atleta específico:**
