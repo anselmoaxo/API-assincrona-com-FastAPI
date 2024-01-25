@@ -34,7 +34,7 @@ Método: POST
 Atualizar informações de um atleta:
 
 Endpoint: http://127.0.0.1:8000/atletas/{id}/
-Método: PUT
+Método: PATCH
 Excluir um atleta:
 
 Endpoint: http://127.0.0.1:8000/atletas/{id}/
