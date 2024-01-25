@@ -20,53 +20,55 @@ cd API-assincrona-com-FastAPI
 
 ## Endpoints
 ### Atletas
-Listar todos os atletas:
+**Listar todos os atletas:**
 Endpoint: http://127.0.0.1:8000/atletas/
 Método: GET
-Detalhes de um atleta específico:
 
+**Detalhes de um atleta específico:**
 Endpoint: http://127.0.0.1:8000/atletas/{id}/
 Método: GET
-Adicionar um novo atleta:
 
+**Adicionar um novo atleta:**
 Endpoint: http://127.0.0.1:8000/atletas/
 Método: POST
-Atualizar informações de um atleta:
 
+**Atualizar informações de um atleta:**
 Endpoint: http://127.0.0.1:8000/atletas/{id}/
 Método: PATCH
-Excluir um atleta:
 
+**Excluir um atleta:**
 Endpoint: http://127.0.0.1:8000/atletas/{id}/
 Método: DELETE
 
 ### Categorias
-Listar todas as categorias:
 
+**Listar todas as categorias:**
 Endpoint: http://127.0.0.1:8000/categorias/
 Método: GET
-Adicionar uma nova categoria:
 
+**Adicionar uma nova categoria:**
 Endpoint: http://127.0.0.1:8000/categorias/
 Método: POST
-Detalhes de uma categoria específica:
 
+**Detalhes de uma categoria específica:**
 Endpoint: http://127.0.0.1:8000/categorias/{id}/
 Método: GET
 
 
 ### Centro de Treinamento
-Listar todos os centros de treinamento:
 
+**Listar todos os centros de treinamento:**
 Endpoint: http://127.0.0.1:8000/centros_treinamento/
 Método: GET
-Adicionar um novo centro de treinamento:
 
+**Adicionar um novo centro de treinamento:**
 Endpoint: http://127.0.0.1:8000/centros_treinamento/
 Método: POST
-Detalhes de um centro de treinamento específico:
 
+**Detalhes de um centro de treinamento específico:**
 Endpoint: http://127.0.0.1:8000/centros_treinamento/{id}/
 Método: GET
+
+
 ## Documentação da API
 Acesse a documentação interativa da API em http://127.0.0.1:8000/docs para obter informações detalhadas sobre os endpoints, parâmetros e respostas
